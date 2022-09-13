@@ -1,0 +1,38 @@
+.new{
+    text-decoration:none;
+    color:aliceblue;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.new_time{
+    color: rgb(235, 235, 30);
+    font-size: 1rem;
+    position: relative;
+    right: -2%;
+    top: 1%;
+}
+
+.new_text{
+    color: aliceblue;
+    font-size: 1.3rem;
+    position: relative;
+    margin: 10px;
+}
+
+.new_text:hover{
+    color: rgb(182, 203, 21);
+    font-size: 1.3rem;
+    position: relative;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.MyNews{
+    display: flex;
+
+}
+
+

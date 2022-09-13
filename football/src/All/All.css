@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../../public/messi.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.back{
+    background-color: rgb(0, 0, 0);
+    height: 175%;
+    width: 84%;
+    position: absolute;
+    left:10%;
+    top:90%;
+}
+
+.two_back{
+    background-color: rgb(19, 18, 18);
+    height: 80%;
+    width: 98%;
+    position: relative;
+    top:0%;
+    left: 1%;
+}
+
+
+.header_img img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom:-45px;
+}
+
+.item a{
+    color:white;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 1.6rem;
+}
+
+.item a:hover{
+    color:rgb(244, 232, 125);
+}
+
+.ball{
+    color: rgb(230, 212, 45);
+    transition: 0.5s;
+    position: relative;
+    top:3px;
+    width: 25px;
+}
+
+
+.title{
+    color: #c77f0b;
+    font-size: 2.2rem;
+    position: absolute;
+    right: 32%;
+    z-index: 1;
+}
+
+.back_three{
+    width: 19%;
+    height: 95%;
+    background-color: rgb(29, 27, 27);
+    position: relative;
+    left: 1%;
+    bottom: 28%;
+}
+
+.back_four{
+    width: 23%;
+    height: 95%;
+    background-color: rgb(29, 27, 27);
+    position: relative;
+    left: 76%;
+    bottom: 123%;
+}
+
+.frame{
+    width: 90%;
+    height: 90%;
+    background-color: #313743;
+    position: relative;
+    top:2%;
+    left:5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.frame_text{
+    font-size: 1.6rem;
+    color: aliceblue;
+    position: relative;
+    left: 25%;
+}
+
+.item_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.frame_text_under{
+    color: antiquewhite;
+    font-size: 1.3rem;
+    position: relative;
+    top: 3%;
+    margin: 15px;
+}
+
+.inFrame{
+    width: 98%;
+    height: 90%;
+    background-color: rgb(33, 30, 30);
+    position: relative;
+    left:1%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+@media screen and(max-width: 1280px){
+    .back_four{
+    width: 20%;
+    height: 95%;
+    background-color: rgb(29, 27, 27);
+    position: relative;
+    left: 79%;
+    bottom: 123%;
+    }
+}
+    
+
+
+@media screen and (max-width: 920px){
+    .items{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        bottom:-4%;
+        
+    }
+
+    .item a{
+        color:white;
+        text-decoration: none;
+        transition: 1s;
+        font-size: 1.2rem;
+    }
+
+    .header_img img{
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 0.5rem;
+        margin-top: -1.3rem;
+    }
+
+    .two_back{
+        background-color: rgb(19, 18, 18);
+        height: 190%;
+        width: 98%;
+        position: relative;
+        top: -4%;
+        left: 1%;
+    }
+
+    .back_three{
+        width: 99%;
+        height: 27%;
+        background-color: rgb(29, 27, 27);
+        position: relative;
+        left: 1%;
+        bottom: -57%;
+    }
+
+    .back_four{
+        width: 100%;
+        height: 24%;
+        background-color: rgb(42, 39, 39);
+        position: relative;
+        left: 0%;
+        bottom: -6%;
+    }
+
+}
+
+
